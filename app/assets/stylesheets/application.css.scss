@@ -23,18 +23,19 @@
 .field>input{
 		font-size:1.5em;
 }
-.action{
-	border: 0.1em solid black;
-	text-align: center;
-	margin:0 auto;
-}
+
 .actions>input{
-	color:red;
-	background-color: green;
+	color:#fff;
+	background-color: #77b55a;
 	font-size:1.5em;
 	text-align: center;
 	
 	margin-top: 1em;
+
+	&:hover{
+		background-color: #3e7327;
+	}
+			
 	
-	border: 0.1em solid black;
+	
 }
